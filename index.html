@@ -17,9 +17,23 @@
       background-color: #000000;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     }
+
+    .message-wrapper {
+      text-align: center;
+    }
+
+    /* Media query for smaller screens */
+    @media (max-width: 768px) {
+      body {
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Hey Lavdu</h1>
+  <div class="message-wrapper">
+    <h1>Hey Lavdu</h1>
+  </div>
 </body>
 </html>
